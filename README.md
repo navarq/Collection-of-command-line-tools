@@ -6,7 +6,7 @@ Note a number of tools require NirCmd
 [NirSoft nircmd](https://www.nirsoft.net/utils/nircmd.html)
 
 #STEAM
-For the launch steam generic file
+For the launch steam generic file - For launching steam (user can add -silent command flag after steam.exe to hide gui)
 
 you must create an environment file named
 
@@ -21,7 +21,10 @@ steam_username <username>
 steam_password <password>
 ```
 
-The angle brackets < > are not needed for the password/username. The reason I have done this way is that it is a standard cybersecruity measure not to keep your passwords in repositorities hosted online to insure that they are not compromised. A contininous integration/continous delivery process can also roll over these secrets automagically when requested or when compromised. See (_S_ite _R_eilability _E_ngineering) https://sre.google.com for more information
+The angle brackets < > are not needed for the password/username. Only a single space is necessary between the username and password for use in the batch file.
+
+#_Why_
+The reason I have done this way is that it is a standard cybersecruity convection not to keep your passwords in repositorities hosted online to insure that they are not compromised. A contininous integration/continous delivery process can also roll over these secrets automagically when requested or when compromised. See (_S_ite _R_eilability_E_ngineering) https://sre.google.com for more information
 
 Must step up in steam the location of install folder to d drive and have created the `app` directory beforehand.
 
