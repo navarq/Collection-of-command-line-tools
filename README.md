@@ -34,4 +34,5 @@ Must step up in steam the location of install folder to d drive and have created
 
 * add as variable why do this as my setup is low on harddisk space and my D drive has more space. 
 * Make the loading batch file more generic
+* Put steam generic into separate file
 
